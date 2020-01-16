@@ -7,22 +7,22 @@ Can be used in many cases, while we focus more on a specific case of only croppi
 ****
 Required config(can be changed in config.py):
 
-* **root_path**: root path of the input and output images
-* **search_radius**: radius of searcing for best start and end point
-* **min_match_pairs**: min match pairs needed for calculation
+* **ROOT_PATH**: root path of the input and output images
+* **SEARCH_RADIUS**: radius of searcing for best start and end point
+* **MIN_MATCH_PAIRS**: min match pairs needed for calculation
 
 ****
 Required: python3, cv2
 
 **Output**: 
 
-`query_keypoints`: keypoints of query image
+`query_keypoints.jpg`: keypoints of query image
 
-`train_keypoints`: keypoints of train image
+`train_keypoints.jpg`: keypoints of train image
 
-`features_matching`: features matching and localization of query and train image
+`features_matching.jpg`: features matching and localization of query and train image
 
-`result`: calculate query image from train image, should be the same as the old query image
+`result.jpg`: calculate query image from train image, should be the same as the old query image
 
 ****
 How to run: 
