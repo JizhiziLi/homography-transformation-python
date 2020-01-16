@@ -1,0 +1,4 @@
+ROOT_PATH = 'src_img/'
+SEARCH_RADIUS = 2
+MIN_MATCH_PAIRS = 10
+
