@@ -15,9 +15,13 @@ Required config(can be changed in config.py):
 Required: python3, cv2
 
 **Output**: 
+
 `query_keypoints`: keypoints of query image
+
 `train_keypoints`: keypoints of train image
+
 `features_matching`: features matching and localization of query and train image
+
 `result`: calculate query image from train image, should be the same as the old query image
 
 ****
@@ -25,4 +29,4 @@ How to run:
 * Edit config.py for any paths/settings
 * run `python main.py`
 
-<img src="src_img/features_matching.jpg" width="1000" height="500" title="Features matching" />
+<img src="src_img/features_matching.jpg" width="1000" height="466" title="Features matching" />
